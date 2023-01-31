@@ -134,5 +134,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://vipulmashruwala.github.io/vipul_mashruwala1710'
+    'http://vipulmashruwala.github.io/vipul_mashruwala1710',
+    'https://vipulmashruwala.github.io'
+    'http://vipulmashruwala.github.io'
 ]
