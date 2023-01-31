@@ -138,5 +138,5 @@ CORS_ALLOWED_ORIGINS = [
     'https://bright-kataifi-11984e.netlify.app',
     'https://bright-kataifi-11984e.netlify.app/',
     'http://bright-kataifi-11984e.netlify.app',
-    'http://bright-kataifi-11984e.netlify.app/'
+    'http://bright-kataifi-11984e.netlify.app/',
 ]
