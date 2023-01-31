@@ -135,8 +135,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://VipulMashruwala.github.io/vipul_mashruwala1710',
-    'http://VipulMashruwala.github.io/vipul_mashruwala1710',
-    'https://VipulMashruwala.github.io',
-    'http://VipulMashruwala.github.io',
+    'https://bright-kataifi-11984e.netlify.app',
+    'https://bright-kataifi-11984e.netlify.app/',
+    'http://bright-kataifi-11984e.netlify.app',
+    'http://bright-kataifi-11984e.netlify.app/'
 ]
