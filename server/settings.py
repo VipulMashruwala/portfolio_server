@@ -12,10 +12,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-oma5^td0wpwx2@6dpdhqv2agi0^2=-ne_pago=4$!^jfk%%5*u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','portfolio-server-seven-self.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','portfolio-server-seven-self.vercel.app',
+                    'portfolio-server-9kgf7noik-vipulmashruwalaportfolio.vercel.app','localhost']
 
 
 # Application definition
@@ -134,9 +135,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 
 CORS_ALLOWED_ORIGINS = [
+    'https://vipul-mashruwala1710.vercel.app',
     'http://localhost:3000',
-    'https://bright-kataifi-11984e.netlify.app',
-    'https://bright-kataifi-11984e.netlify.app/',
-    'http://bright-kataifi-11984e.netlify.app',
-    'http://bright-kataifi-11984e.netlify.app/',
+    'https://bright-kataifi-11984e.netlify.app'
 ]
